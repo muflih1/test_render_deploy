@@ -1,5 +1,5 @@
 import express from "express"
-import { getEnv } from "./env"
+import { getEnv } from "./env.js"
 
 const app = express()
 
