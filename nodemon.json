@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "concurrently \"yarn tsc --watch\" \"node --loader ts-node/esm src/index.ts\""
+}
